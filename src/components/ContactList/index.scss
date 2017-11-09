@@ -1,0 +1,12 @@
+@import "../../styles/_colors.scss";
+
+.ContactList {
+  max-height: 100%;
+  overflow-y: auto;
+
+  &__ListItem {
+    color: $linkBlue;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
